@@ -6,7 +6,7 @@ switch(room){
 		
 	case rm_start:
 		draw_set_halign(fa_center);
-		var c = c_yellow;
+		var c = c_aqua;
 		draw_text_transformed_color(
 			room_width/2, 100, "SPACE ROCKS", 
 			3, 3, 0, c,c,c,c, 1
@@ -41,7 +41,7 @@ SPACE: shoot
 		
 	case rm_gameover:
 		draw_set_halign(fa_center);
-		var c = c_red;
+		var c = c_maroon;
 		draw_text_transformed_color(
 			room_width/2, 150, "GAME OVER!", 
 			3, 3, 0, c,c,c,c, 1
