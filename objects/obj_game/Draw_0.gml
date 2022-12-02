@@ -8,7 +8,7 @@ switch(room){
 		draw_set_halign(fa_center);
 		var c = c_aqua;
 		draw_text_transformed_color(
-			room_width/2, 100, "SPACE ROCKS", 
+			room_width/2, 100, "SPACE ROCKS",   
 			3, 3, 0, c,c,c,c, 1
 		);
 		draw_text(
