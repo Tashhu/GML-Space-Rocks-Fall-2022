@@ -41,7 +41,7 @@ SPACE: shoot
 		
 	case rm_gameover:
 		draw_set_halign(fa_center);
-		var c = c_maroon;
+		var c = c_fuchsia;
 		draw_text_transformed_color(
 			room_width/2, 150, "GAME OVER!", 
 			3, 3, 0, c,c,c,c, 1
