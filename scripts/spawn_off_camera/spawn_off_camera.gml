@@ -2,10 +2,7 @@
 ///@arg obj
 ///@arg number
 function spawn_off_camera(obj, num){
-	var obj = obj;
-	var num = num;
 	var xx,yy;
-
 	var pad = 64;
 
 	repeat(num){
