@@ -7,4 +7,8 @@ if(instance_exists(target)){
 	global.cameraX = clamp(global.cameraX, 0, room_width-global.cameraWidth);
 	global.cameraY = clamp(global.cameraY, 0, room_height-global.cameraHeight);
 }
+
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
+
+	layer_x("Background", global.cameraX*.9);
+	layer_y("Background", global.cameraY*.9);
